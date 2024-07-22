@@ -125,8 +125,8 @@ body {
   font-family: "29LT Bukra Bold";
   color: #31a263;
   margin: 0;
-  -webkit-animation: fade-up 0.75s;
-          animation: fade-up 0.75s;
+  -webkit-animation: fade-up 1s;
+          animation: fade-up 1s;
   -webkit-animation-delay: 0.05s;
           animation-delay: 0.05s;
 }
@@ -136,8 +136,8 @@ body {
   font-weight: 600;
   line-height: 2;
   margin: 1.5em 0 0 0;
-  -webkit-animation: fade-up 0.75s;
-          animation: fade-up 0.75s;
+  -webkit-animation: fade-up 1s;
+          animation: fade-up 1s;
   -webkit-animation-delay: 0.025s;
           animation-delay: 0.025s;
 }
@@ -150,8 +150,8 @@ body {
   font-family: Alexandria, sans-serif;
   font-weight: 600;
   line-height: 2;
-  -webkit-animation: fade-up 0.75s;
-          animation: fade-up 0.75s;
+  -webkit-animation: fade-up 1s;
+          animation: fade-up 1s;
   background-color: #31a263;
   border-radius: 50px;
   padding: 0.5em 2.5em;
