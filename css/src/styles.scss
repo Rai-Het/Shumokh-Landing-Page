@@ -71,7 +71,7 @@ body {
           font-family: $main_font;
           color: $main_color;
           margin: 0;
-          animation: fade-up 5s;
+          animation: fade-up 0.75s;
           animation-delay: 0.05s;
         }
 
@@ -81,7 +81,7 @@ body {
           font-weight: $secondry_font_weight;
           line-height: $secondry_font_line_height;
           margin: $m_medium 0 0 0;
-          animation: fade-up 5s;
+          animation: fade-up 0.75s;
           animation-delay: 0.025s;
         }
       }
@@ -93,7 +93,7 @@ body {
         font-family: $secondry_font;
         font-weight: $secondry_font_weight;
         line-height: $secondry_font_line_height;
-        animation: fade-up 5s;
+        animation: fade-up 0.75s;
 
         @include button;
         @include hover;
