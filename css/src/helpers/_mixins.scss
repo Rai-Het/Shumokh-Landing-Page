@@ -1,0 +1,44 @@
+@use "./helpers/variables" as *;
+
+@mixin button {
+  background-color: $main_color;
+  border-radius: 50px;
+  padding: 0.5em 2.5em;
+  color: $third_color;
+  font-size: $f_small;
+  transition: 0.1s;
+  border: 1.5px solid $main_color;
+}
+
+@mixin hover {
+  &:hover {
+    background-color: black;
+    color: $main_color;
+  }
+}
+
+@mixin animations {
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
